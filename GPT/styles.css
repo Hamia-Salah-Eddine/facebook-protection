@@ -1,0 +1,126 @@
+/* Style for the header section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .header-left img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .header-left input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header-right img {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Style for the main content section */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .post-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .post-box img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-box textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    font-size: 16px;
+  }
+  
+  .post-box button {
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  
+  .news-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .post {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .post img {
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .post-content h3 {
+    margin: 10px;
+  }
+  
+  .post-content p {
+    margin: 10px;
+  }
+  
+  .post-content img {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  /* Style for the footer section */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
